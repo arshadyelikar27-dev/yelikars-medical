@@ -120,6 +120,7 @@
   function initMobileNav() {
     const menuBtn = document.getElementById('menuToggleBtn');
     const overlay = document.getElementById('mobileNavOverlay');
+    const closeBtn = document.getElementById('mobileNavCloseBtn');
     const links = document.querySelectorAll('.mobile-nav-link');
 
     if (!menuBtn || !overlay) return;
@@ -140,6 +141,9 @@
     }
 
     menuBtn.addEventListener('click', toggleMenu);
+    if (closeBtn) {
+      closeBtn.addEventListener('click', toggleMenu);
+    }
 
     links.forEach(link => {
       link.addEventListener('click', () => {
