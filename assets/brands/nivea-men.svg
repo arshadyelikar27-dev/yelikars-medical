@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 170 50" width="170" height="50">
+  <rect x="2" y="2" width="166" height="46" rx="8" fill="#00186B"/>
+  <text x="85" y="24" font-family="'Poppins', sans-serif" font-size="15" font-weight="900" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">NIVEA</text>
+  <rect x="52" y="28" width="66" height="13" rx="3" fill="#1565C0"/>
+  <text x="85" y="38" font-family="'Inter', sans-serif" font-size="9" font-weight="800" fill="#FFFFFF" text-anchor="middle" letter-spacing="2">MEN</text>
+</svg>

@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 150 50" width="150" height="50">
+  <rect x="2" y="2" width="146" height="46" rx="23" fill="#FFF0F5" stroke="#E91E63" stroke-width="1.5"/>
+  <circle cx="28" cy="25" r="14" fill="#E91E63"/>
+  <path d="M22 24 C24 20 28 20 31 22 C34 24 35 29 31 31 C27 33 22 28 22 24 Z" fill="#FFFFFF"/>
+  <text x="50" y="32" font-family="'Poppins', sans-serif" font-size="22" font-style="italic" font-weight="800" fill="#E91E63">Veet</text>
+</svg>

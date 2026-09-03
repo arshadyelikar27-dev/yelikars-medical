@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 50" width="180" height="50">
+  <defs>
+    <linearGradient id="flGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF4081"/>
+      <stop offset="100%" stop-color="#D81B60"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="176" height="46" rx="23" fill="#FFFFFF" stroke="#E91E63" stroke-width="1.5"/>
+  <circle cx="26" cy="25" r="14" fill="url(#flGrad)"/>
+  <!-- Sparkle star -->
+  <path d="M26 15 L28 23 L36 25 L28 27 L26 35 L24 27 L16 25 L24 23 Z" fill="#FFF9C4"/>
+  <text x="48" y="25" font-family="'Poppins', sans-serif" font-size="13" font-weight="800" fill="#D81B60">FAIR &amp; LOVELY</text>
+  <text x="48" y="37" font-family="'Inter', sans-serif" font-size="9" font-weight="600" fill="#880E4F">GLOW &amp; LOVELY</text>
+</svg>

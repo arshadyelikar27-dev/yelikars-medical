@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 50" width="160" height="50">
+  <rect x="2" y="2" width="156" height="46" rx="23" fill="#FFFFFF" stroke="#2E7D32" stroke-width="1.5"/>
+  <circle cx="26" cy="25" r="14" fill="#2E7D32"/>
+  <!-- Crown / Leaf motif -->
+  <path d="M19 28 L21 21 L26 25 L31 21 L33 28 Z" fill="#FFD700"/>
+  <circle cx="26" cy="19" r="2" fill="#FFD700"/>
+  <text x="48" y="26" font-family="'Poppins', sans-serif" font-size="14" font-weight="800" fill="#1B5E20">KESH KING</text>
+  <text x="48" y="37" font-family="'Inter', sans-serif" font-size="8.5" font-weight="600" fill="#2E7D32">AYURVEDIC OIL</text>
+</svg>

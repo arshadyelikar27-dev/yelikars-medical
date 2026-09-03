@@ -1,0 +1,60 @@
+/* ==========================================================================
+   Yelikar's Medical & General Stores - Design System Tokens & Variables
+   ========================================================================== */
+
+:root {
+  /* Brand Primary & Secondary Palette (Pixel-sampled directly from brand identity) */
+  --brand-orange: #FE5405;
+  --brand-gold: #FDCA00;
+  --brand-crimson: #FB0D35;
+  --brand-green: #29AF24;
+  --poster-green: #029348;
+  --deep-teal: #02505D;
+  --deep-teal-dark: #013740;
+  --signage-yellow: #FFF100;
+  --ink: #0A0A0A;
+  --ink-light: #24292E;
+  --white: #FFFFFF;
+  --off-white: #FAF9F5;
+  --slate: #5B6570;
+  --slate-light: #8C96A3;
+  --border-light: rgba(10, 10, 10, 0.08);
+  --border-glass: rgba(255, 255, 255, 0.2);
+
+  /* Gradients */
+  --gradient-brand: linear-gradient(135deg, var(--brand-gold) 0%, var(--brand-orange) 55%, var(--brand-crimson) 100%);
+  --gradient-brand-subtle: linear-gradient(135deg, rgba(253, 202, 0, 0.1) 0%, rgba(254, 84, 5, 0.12) 55%, rgba(251, 13, 53, 0.08) 100%);
+  --gradient-teal: linear-gradient(135deg, var(--deep-teal) 0%, var(--deep-teal-dark) 100%);
+  --gradient-green: linear-gradient(135deg, #32C82D 0%, var(--brand-green) 50%, var(--poster-green) 100%);
+
+  /* Typography */
+  --font-heading: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-marathi: 'Hind', 'Noto Sans Devanagari', sans-serif;
+
+  /* Shadows & Elevation */
+  --shadow-xs: 0 2px 6px rgba(10, 10, 10, 0.04);
+  --shadow-sm: 0 4px 12px rgba(10, 10, 10, 0.06);
+  --shadow-soft: 0 10px 30px rgba(10, 10, 10, 0.08);
+  --shadow-lift: 0 20px 40px rgba(254, 84, 5, 0.18);
+  --shadow-teal: 0 20px 40px rgba(2, 80, 93, 0.25);
+  --shadow-crimson: 0 15px 30px rgba(251, 13, 53, 0.22);
+  --shadow-card-hover: 0 22px 45px rgba(10, 10, 10, 0.12);
+
+  /* Radii */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 22px;
+  --radius-xl: 32px;
+  --radius-pill: 9999px;
+
+  /* Spacing / Layout */
+  --max-width: 1280px;
+  --container-padding: clamp(16px, 4vw, 32px);
+  --nav-height: 80px;
+
+  /* Transitions */
+  --transition-fast: 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-normal: 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-bounce: 0.5s cubic-bezier(0.34, 1.56, 0.64, 1);
+}
